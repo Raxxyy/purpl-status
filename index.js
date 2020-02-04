@@ -23,7 +23,7 @@ client.on('message', async message => {
   } else if(message.content.startsWith(`${prefix}streaming`)) {
     message.delete();
     client.user.setGame('lo', "https://www.twitch.tv/jahmahd");
-  }
+  } //lol
 });
 
 client.login(token);
